@@ -1,5 +1,24 @@
 # cssGridCourse
 ## Manejo de CSS Grid
+
+Propiedades para la alineación de los items (elementos):
+
+* Justify-items
+* Align-items
+* Place-items
+
+Propiedades para la alineación del container(El Contenedor):
+
+* Justify-content
+* Align-content
+* Place-content
+
+Propiedades para la alineación de un solo item individual
+
+* Justify-self
+* Align-self
+* Place-self
+
 Propieades de ubicación (para las columnas)(columns)
 
 * Grid-column-start
