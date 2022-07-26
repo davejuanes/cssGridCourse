@@ -1,0 +1,39 @@
+.container {
+    border: 5px solid #e1bee7;
+    background-color: #e1bee7;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+    align-content: center;
+}
+.item {
+    background-color: #01f13d;
+    font-size: 4rem;
+}
+.item span {
+    width: 10px;
+    height: 10px;
+    background-color: #058a26;
+}
+.item:nth-child(2),
+.item:nth-child(5) {
+    background-color: #5ab507;
+}
+.item:nth-child(3),
+.item:nth-child(6) {
+    background-color: #419f00;
+}
+.item span {
+    position:relative;
+}
+span {
+    position:absolute;
+    bottom:-25px;
+    right:0px;
+    background-color: #337900;
+    color: white;
+}
