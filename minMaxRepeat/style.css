@@ -1,0 +1,13 @@
+/* minmax ayuda a declarar minimo y maximo de una celda */
+/* ayuda a asignar automaticamente las propiedades para definir la cantidad de la cantidad de veces que hay una fila y luego el tamaño de las celdas repeat(3, 100px) o repeat(3, auto)*/
+.container {
+    border: 5px solid #e1bee7;
+    background-color: white;
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+    grid-template-rows: repeat(3, auto);
+}
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
